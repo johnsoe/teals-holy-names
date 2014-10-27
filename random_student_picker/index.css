@@ -1,0 +1,56 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+button, .current_student {
+	font-size: 45pt;
+	color: teal;
+}
+
+#main_view {
+	display: none;
+}
+
+.day_button {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.button_subtext {
+	font-size: 4pt;
+}
+
+.spin {
+	padding: 10px;
+	height: 100%;
+	float: left
+}
+
+.current_student {
+	width: 50%;
+	height: 50%;
+}
+
+li {
+	list-style-type: none;
+	width: 49%;
+	height: 10%;
+	float: left;
+	text-align: center;
+	border: 1px solid teal;
+	margin: 1px;
+	color: teal;
+}
+
+#student_list {
+	padding-left: 0;
+	width: 80%;
+	float: left;
+	margin: 0;
+}
+
+.randomChoice {
+	background-color: teal;
+	color: white;
+}

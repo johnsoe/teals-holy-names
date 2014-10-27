@@ -1,0 +1,3 @@
+Random student picker
+	Load teh students based on which class
+	Every time spin is clicked a student will get selected. After the spin run spin again to remove the previous student(s). If students are in a group you can click the name when a spin is not running to remove multiple at a single time. Same if any students volunteer you can just click their name and then click spin when selecting the next group. 

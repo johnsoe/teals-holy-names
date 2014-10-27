@@ -19,7 +19,7 @@ $(function() {
 		setHeights();
 		$('#student_list li').on('click', function() {
 			if(!isSpinning) {
-				$(this).addClass('randomChoice');
+				$(this).toggleClass('randomChoice');
 			}
 		});
 	};
